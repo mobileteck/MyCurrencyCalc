@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2012 by original authors @ fontello.com</metadata>
+<defs>
+<font id="icons" horiz-adv-x="1000" >
+<font-face font-family="icons" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="arrows-cw" unicode="&#x42;" d="M0-150l0 402 402 0-160-160q107-107 258-107 125 0 222 75t130 192l139 0q-35-174-173-288t-317-114q-207 0-353 146z m10 598q35 174 173 288t317 114q207 0 353-146l146 146 0-402-402 0 160 160q-107 107-258 107-125 0-222-75t-130-192l-139 0z" horiz-adv-x="1000" />
+<glyph glyph-name="exchange" unicode="&#x41;" d="M1000 189l0-107q0-7-5-13t-13-5l-768 0 0-107q0-7-5-13t-13-5q-7 0-13 6l-178 179q-5 5-5 12 0 8 5 13l179 179q5 5 13 5 7 0 13-5t5-13l0-107 768 0q7 0 13-5t5-13z m0 304q0-8-5-13l-179-179q-5-5-13-5-7 0-13 5t-5 13l0 107-768 0q-7 0-13 5t-5 13l0 107q0 7 5 13t13 5l768 0 0 107q0 8 5 13t13 5q7 0 13-6l178-178q5-5 5-13z" horiz-adv-x="1000" />
+</font>
+</defs>
+</svg>

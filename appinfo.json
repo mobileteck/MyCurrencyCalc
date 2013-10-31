@@ -1,0 +1,12 @@
+{
+	"title": "My Currency Calc",
+	"id": "com.mobileteck.com.mycurrencycalc",
+	"version": "0.1.0",
+	"vendor": "Mobileteck Inc",
+	"vendor_url": "http://www.mobileteck.com",
+	"type": "web",
+	"main": "index.html",
+	"icon": "icon.png",
+	"uiRevision": "2"
+}
+

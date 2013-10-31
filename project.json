@@ -1,0 +1,25 @@
+{
+  "build": {
+    "phonegap": {
+      "enabled": false,
+      "icon": {
+        "src": "icon.png",
+        "role": "default"
+      },
+      "preferences": {
+        "phonegap-version": "2.6.0"
+      }
+    }
+  },
+  "preview": {
+    "top_file": "index.html"
+  },
+  "author": {
+    "name": "MobileTeck Inc",
+    "href": "http://www.mobileteck.com"
+  },
+  "id": "com.mobileteck.com.mycurrencycalc",
+  "version": "1.0",
+  "name": "My Currency Calc",
+  "title": "My Currency Calc"
+}

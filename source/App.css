@@ -2,6 +2,113 @@
 	Put anything you reference with "url()" in ../assets/
 	This way, you can minify your application, and just remove the "source" folder for production
 */
-.nice-padding {
-	padding: 15px;
+#app {
+	background-color: #000000;
+}
+
+/* Pre 2 */
+@media screen and (max-device-width: 350px) {
+  .refreshBtn {
+    font-size: 60%;
+  }
+
+  .displayUnit {
+    font-size: 120%;
+  }
+
+}
+
+/* Pre 3 */
+@media screen and (min-device-width: 400px) and (max-device-width: 600px) {
+  .refreshBtn {
+    font-size: 80%;
+  }
+
+  .displayUnit {
+    font-size: 130%;
+  }
+
+}
+
+
+/* Touchpad */
+@media screen and (min-device-width: 700px) {
+  .refreshBtn {
+    font-size: 200%;
+  }
+
+  .displayUnit {
+    font-size: 200%;
+  }
+}
+
+
+.numberToolbar {
+	height: 54px;
+	border-radius: 16px;
+	background-color: #555;
+	padding-right: 2px;
+}
+
+.number-button {
+	color: black;
+	background-color: white;
+	border-color: #000000;
+}
+
+.currency-list {
+	font-size: 100%;
+}
+
+
+@font-face {
+  font-family: 'icons';
+  src: url('../font/icons.eot?86727942');
+  src: url('../font/icons.eot?86727942#iefix') format('embedded-opentype'),
+       url('../font/icons.woff?86727942') format('woff'),
+       url('../font/icons.ttf?86727942') format('truetype'),
+       url('../font/icons.svg?86727942#icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'icons';
+    src: url('../font/icons.svg?86727942#icons') format('svg');
+  }
+}
+*/
+ 
+.iconFont {
+  font-family: "icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  /*width: 1em;
+  margin-right: .2em;*/
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+     
+  /* fix buttons height, for twitter bootstrap */
+  /*line-height: 1em;*/
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  /*margin-left: .2em;*/
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
