@@ -26,6 +26,9 @@ if not "%1" == "" (
 			  for %%A in ("%~dp0./..") do SET DEST=%TOOLS%..\deploy\%%~nA
 			  copy %SRC%appinfo.json %DEST%
 			  copy %SRC%cordova*.js %DEST%
+			  copy %SRC%framework_config.json %DEST%
+			  copy %SRC%cufon-yui.js %DEST%
+			  copy %SRC%icons_400.font.js %DEST%
 
 			  REM package it up
 				if not exist %SRC%bin mkdir %SRC%bin
